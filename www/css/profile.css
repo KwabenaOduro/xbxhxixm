@@ -1,0 +1,19 @@
+.input-field input{
+    color: white;
+}
+.myicon{
+    z-index: 300;
+    position: absolute;
+    margin-top: 41px !important;
+    margin-left: 56px !important;
+
+
+}
+.p-avatar {
+    width: 75px !important;
+    height: 75px !important;
+}
+.update {
+    margin-top: 20px;
+    padding: 2px 15px !important;
+}

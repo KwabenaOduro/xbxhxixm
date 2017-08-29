@@ -1,0 +1,13 @@
+{
+  "name": "google-libphonenumber",
+  "homepage": "https://github.com/ionicthemes/google-libphonenumber",
+  "_release": "d36a55908c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d36a55908cd6618b2b8bc5e3fe7d8ed1c25265a7"
+  },
+  "_source": "https://github.com/ionicthemes/google-libphonenumber.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/ionicthemes/google-libphonenumber.git"
+}

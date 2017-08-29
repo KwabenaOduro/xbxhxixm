@@ -1,0 +1,431 @@
+.bar.bar-stable .title,
+.item h2,
+.item h3,
+a,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100 !important; }
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+.main-menu {
+  background-color: transparent;
+  border-color: transparent; }
+  .main-menu .item-content {
+    padding-left: 30px;
+    background-color: rgba(55, 71, 79, 0.6) !important;
+    color: white; }
+  .main-menu span {
+    font-size: 20px; }
+  .main-menu i.icon {
+    font-size: 20px; }
+
+.menu-content-background {
+  background-image: url("../img/background/31.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.container-background,
+.container-background-full,
+.container-hearder-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.left-menu-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/background/29.jpg");
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2); }
+
+.scroll-refresher .ionic-refresher-content {
+  color: white; }
+
+.spinner,
+.spinner-ios,
+.spinner-ios-small {
+  color: #ef4437;
+  fill: #ef4437;
+  stroke: #ef4437; }
+
+.block-table {
+  width: 100%;
+  height: 100%;
+  display: table; }
+  .block-table .scroll {
+    display: table-cell;
+    vertical-align: middle; }
+  .block-table .ionic-descript {
+    color: #fde800;
+    padding: 0 20px; }
+    .block-table .ionic-descript h2 {
+      color: #fde800;
+      font-size: 24px;
+      margin-bottom: 3px;
+      margin-top: 0; }
+    .block-table .ionic-descript p {
+      margin-bottom: 30px;
+      margin-top: 10px; }
+  .block-table .ionic-documentation {
+    margin-top: 30%;
+    display: block;
+    text-decoration: underline;
+    color: #fff;
+    padding: 0 20px; }
+
+.spinner-view .spinner img {
+  width: 100px;
+  height: 100px;
+  margin: 50% auto 0;
+  display: block; }
+
+.spinner-view .scroll {
+  height: 100%; }
+
+.spinner-view .slider {
+  height: 100%; }
+
+.spinner-view .slider-pager .ion-record:before {
+  color: #fff; }
+
+.bar-subheader,
+.has-header,
+.platform-ios .bar-subheader {
+  top: 56px !important; }
+
+.list {
+  padding-top: 0; }
+
+.bar.bar-stable {
+  background-color: #263238 !important;
+  height: 56px;
+ /* height: 43px;*/
+  padding: 5px;
+  border-bottom: 1px solid #263238;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-size: 100% 0; }
+  .bar.bar-stable .title {
+    color: white;
+    line-height: 50px;
+    font-size: 20px;
+    left: 40px !important;
+    text-align: left; }
+  .bar.bar-stable .buy-now {
+    color: white;
+    padding: 0 10px;
+    box-shadow: none;
+    border: 1px solid white;
+    margin-top: 5px;
+    font-weight: normal; }
+
+.bar-stable .button.button-clear,
+.buttons.buttons-left.header-item {
+  padding: 0 5px;
+  color: white; }
+
+.back-text {
+  display: none !important; }
+
+#toast-container {
+  text-align: center; }
+
+.custom-toast {
+  width: auto;
+  display: inline-block;
+  margin-bottom: 0.8em;
+  word-break: break-all; }
+
+.shape-img-block {
+  width: 50%;
+  float: left;
+  display: block;
+  text-align: center;
+  margin-top: 20px; }
+  .shape-img-block img {
+    max-width: 100px; }
+
+.menu-panel span {
+  color: #ef4437;
+  display: block;
+  clear: both;
+  margin-top: 10px;
+  font-size: 18px; }
+
+.back-menu.btn {
+  border: 1px solid #ef4437;
+  margin: 50% auto 0;
+  font-size: 16px;
+  color: #ef4437;
+  font-weight: bold; }
+  .back-menu.btn i.left {
+    margin-right: 0; }
+
+.platform-ios .has-header, .platform-ios .bar-subheader {
+  top: 64px !important; }
+
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > * {
+  margin-top: 10px; }
+
+/* my css */
+
+.gd {
+  background-color: transparent;
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(rgba(0,0,0,0)),color-stop(20%,rgba(0,0,0,0.25)),to(rgba(0,0,0,0.75)));
+  /* background-image: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.25) 20%,rgba(0,0,0,0.75)); */
+  background-image: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0.25) 20%,rgba(0,0,0,0.75));
+  /* background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.25) 20%,rgba(0,0,0,0.75)); */
+  background-repeat: no-repeat;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+}
+
+
+/********/
+
+/* CHAT */
+img.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  /*bottom: 10px;*/
+}
+
+img.profile-pic.left {
+  left: 10px;
+ /* bottom: 98px;*/
+  bottom: -9px;
+}
+
+img.profile-pic.right {
+  right: 10px;
+  bottom: -9px;
+}
+
+.ion-email {
+  float: right;
+  font-size: 32px;
+  vertical-align: middle;
+}
+
+.message {
+  font-size: 14px;
+}
+
+.message-detail {
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.bar.item-input-inset .item-input-wrapper input {
+  width: 100% !important;
+}
+
+.message-wrapper {
+  position: relative;
+}
+
+.message-wrapper:last-child {
+  margin-bottom: 10px;
+}
+
+.chat-bubble {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 18px;
+  position: relative;
+  margin: 10px;
+  max-width: 80%;
+}
+
+.chat-bubble:before {
+  content: "\00a0";
+  display: block;
+  height: 16px;
+  width: 9px;
+  position: absolute;
+  bottom: -7.5px;
+}
+
+.chat-bubble.left {
+  background-color: #e6e5eb;
+  float: left;
+  margin-left: 71px;
+}
+
+.chat-bubble.left:before {
+  background-color: #e6e5eb;
+  left: 10px;
+  -webkit-transform: rotate(70deg) skew(5deg);
+}
+
+.chat-bubble.right {
+  background-color: #158ffe;
+  color: #fff;
+  float: right;
+  margin-right: 55px;
+}
+
+.chat-bubble.right:before {
+  background-color: #158ffe;
+  right: 10px;
+  -webkit-transform: rotate(118deg) skew(-5deg);
+}
+
+.chat-bubble.right a.autolinker {
+  color: #fff;
+  font-weight: bold;
+}
+
+.user-messages-top-icon {
+  font-size: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+  right: 5px;
+}
+
+.msg-header-username {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+}
+
+input, textarea, .item-input, .item-input-wrapper {
+ /* background-color: #f4f4f4 !important;*/
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cf {
+  clear: both !important;
+}
+
+a.autolinker {
+  color: #3b88c3;
+  text-decoration: none;
+}
+
+/* loading */
+.loader-center {
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.loader .ion-loading-c {
+  font-size: 64px;
+
+}
+
+/*******/
+/***Zoom Gallery **/
+.image-list-thumb {
+  padding: 2px 2px 2px 2px;
+  height: 150px;
+}
+
+.image-modal {
+  width: 100% !important;
+  height: 100%;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.transparent {
+  background: rgba(0,0,0,0.7);
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center, center;
+}
+
+/***Gallery ends **/
+
+/*VIDEO PLAYER*/
+.videoWrapper {
+  position: relative;
+  /*padding-bottom: 0;*/
+  padding-bottom: 60.25%;
+  /* 16:9 */
+  padding-top: 0;
+  height: 0;
+  background-color: #000;
+}
+.videoWrapper iframe, .videoWrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#sub_payment{
+  float: right;
+  margin-right: 30%;
+}
+
+.album_spinner img{
+  margin-top:15%;
+  margin-left: 14%;
+
+}
+
+.album_spinner h3{
+  float: left;
+  margin-top:15%;
+
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"/>
+  <title></title>
+
+
+  <link href="css/fontello.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/materialize.min.css" rel="stylesheet">
+
+  <!-- compiled css output -->
+  <link href="css/ionic.app.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/seekbar.css">
+  <link href="css/app.css" rel="stylesheet">
+
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <!--Style for DIRECTIVE-->
+  <!--<link href="module/shapeImageView/style.css" rel="stylesheet">-->
+  <link href="module/textView/style.css" rel="stylesheet">
+  <link href="module/spinner/style.css" rel="stylesheet">
+
+  <!--<link href="module/leftMenu/themes/menu/style.css" rel="stylesheet">-->
+
+  <link href="css/profile.css" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="lib/toastr.min.js"></script>
+  <!-- ionic/angularjs js -->
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="lib/bluebird.min.js"></script>
+
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <script src="lib/ionic.cloud.min.js"></script>
+
+  <script src="lib/google-libphonenumber/libphonenumber.js"></script>
+  <script src="lib/angular-messages/angular-messages.min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+  <!-- angular moment -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.2/angular-moment.min.js"></script>
+
+  <script src="lib/ngcordova/ng-cordova.js"></script>
+  <script src="cordova.js"></script>
+  <script type="text/javascript" src="lib/angular-animate/angular-animate.js"></script>
+
+
+  <script src="lib/pusher.min.js"></script>
+  <!-- pusher-angular -->
+  <script src="lib/pusher-angular.min.js"></script>
+
+
+  <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+
+
+
+  <script src="js/services/formdirectives.js"></script>
+
+  <script src="js/app.js"></script>
+
+
+
+  <script src="js/angular.audio.js"></script>
+  <script src="lib/ngvideo/dist/ng-video.js"></script>
+  <script src="js/angular-css.js"></script>
+
+  <!--<script src="js/services/localStorage.js"></script>-->
+  <script src="js/services/showAlertService.js"></script>
+  <script src="js/apiServices/apiService.js"></script>
+  <!--<script src="js/controller.js"></script>-->
+  <script src="template/downloads/download_controller.js"></script>
+  <script src="template/playlist/playlistController.js"></script>
+  <script src="template/albums/albumController.js"></script>
+  <script src="template/music_videos/musicVideosController.js"></script>
+  <script src="template/lyrics/lyricsController.js"></script>
+  <script src="template/videos/videoController.js"></script>
+  <script src="template/general_videos/genVideosController.js"></script>
+  <script src="template/contacts/contactController.js"></script>
+  <script src="template/chats/chatController.js"></script>
+  <script src="template/gallery/galleryController.js"></script>
+  <script src="template/profile/profileController.js"></script>
+  <script src="template/news_feed/newsFeedController.js"></script>
+  <script src="template/menu/menuController.js"></script>
+  <script src="template/authentication/authController.js"></script>
+  <script src="js/services/checkInternet.js"></script>
+  <!--<script src="js/services.js"></script>-->
+  <script src="js/services/services.js"></script>
+  <script src="js/services/cameraService.js"></script>
+  <script src="js/services/appConstants.js"></script>
+
+
+
+
+  <!-- MODUL -->
+
+
+  <script src="js/truncate.js"></script>
+ <!-- <script src="module/loginAndRegister/index.js"></script>
+  <script src="module/checkbox/index.js"></script>
+  <script src="module/imageGallery/index.js"></script>
+  <script src="module/leftMenu/index.js"></script>
+  <script src="module/shapeImageView/index.js"></script>
+  <script src="module/searchBar/index.js"></script>
+  <script src="module/parallax/index.js"></script>
+  <script src="module/listView/index.js"></script>
+  <script src="module/splashScreen/index.js"></script>
+  <script src="module/wizard/index.js"></script>
+  <script src="module/spinner/index.js"></script>-->
+
+
+  <script src="js/seekbar.js"></script>
+
+  <!-- your app's js -->
+
+
+
+
+
+
+  <!-- Data Services -->
+
+  <script src="js/services/toastService.js"></script>
+  <!--<script src="js/services/menuService.js"></script>
+  <script src="js/services/listViewService.js"></script>
+  <script src="js/services/listViewExpandableService.js"></script>
+  <script src="js/services/listViewDragAndDropService.js"></script>
+  <script src="js/services/listViewSwipeToDismissService.js"></script>
+  <script src="js/services/listViewAppearanceAnimationService.js"></script>
+  <script src="js/services/listViewStickyListHeaderService.js"></script>
+  <script src="js/services/listViewGoogleCardService.js"></script>
+  <script src="js/services/parallaxService.js"></script>
+  <script src="js/services/leftMenuService.js"></script>
+  <script src="js/services/loginAndRegisterService.js"></script>
+  <script src="js/services/imageGalleryService.js"></script>
+  <script src="js/services/searchBarService.js"></script>
+  <script src="js/services/checkBoxService.js"></script>
+  <script src="js/services/splashScreenService.js"></script>
+  <script src="js/services/shapeImageViewService.js"></script>
+  <script src="js/services/textViewService.js"></script>
+  <script src="js/services/wizardService.js"></script>
+  <script src="js/services/spinnerService.js"></script>-->
+  <script src="js/services/subscriptionService.js"></script>
+
+
+
+</head>
+
+<body ng-app="starter">
+
+
+<ion-nav-view ></ion-nav-view>
+
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+/*  # Login + logo 2
+================================================*/
+img {
+    margin: 20px auto 0;
+    display: block;
+    max-width: 120px; }
+
+.input-field input {
+    font-size: 16px;
+    color: white;
+    border-bottom: 1px solid white !important; }
+.input-field input:focus:not([readonly]) {
+    color: white;
+    box-shadow: none; }
+.input-field input + label {
+    color: white;
+    font-size: 16px;
+    left: 0;
+    top: 11px; }
+.input-field input + label.active {
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-size: 10px; }
+
+.form-block {
+    padding-top: 20px;
+    margin: 0 25px; }
+.form-block p {
+    color: white;
+    font-size: 16px; }
+
+.form-input {
+    background: #263238;
+    background-color: rgba(38, 50, 56, 0.6) !important;
+    padding: 10px 25px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
+
+/*  Content
+===========================================*/
+button.button-flat {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 400 !important;
+    width: 32%;
+    padding: 0; }
+
+.social {
+    margin: 0 auto 40px;
+    overflow: hidden; }
+.social .button-social {
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 7px 10px;
+    width: 49%;
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 5px; }
+.social > .button-social:nth-child(3) {
+    margin-right: 0; }
+.social > .button-social:nth-child(5) {
+    margin-right: 0; }
